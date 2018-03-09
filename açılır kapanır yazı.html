@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+      <meta charset="utf-8"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+      <!--Button ile -->
+        <div class="container">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+                <div id="demo" class="collapse">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+         </div>
+  <!--listeler ile -->
+         <div id="accordion">
+
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                      Collapsible Group Item #1
+                    </a>
+                  </div>
+                  <div id="collapseOne" class="collapse show">
+                    <div class="card-body">
+                      Lorem ipsum..
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                      Collapsible Group Item #2
+                    </a>
+                  </div>
+                  <div id="collapseTwo" class="collapse">
+                    <div class="card-body">
+                      Lorem ipsum..
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                      Collapsible Group Item #3
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="collapse">
+                    <div class="card-body">
+                      Lorem ipsum..
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+     <!-- Yan yana -->
+             <!-- Nav pills -->
+<ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
+        </li>
+      </ul>
+      
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active container" id="home">...</div>
+        <div class="tab-pane container" id="menu1">...</div>
+        <div class="tab-pane container" id="menu2">mm</div>
+      </div>
+  </body>
+</html>
